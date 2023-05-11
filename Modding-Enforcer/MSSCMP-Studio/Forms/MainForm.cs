@@ -42,13 +42,10 @@ namespace MSSCMP_Studio
         bool saved = true;
         FolderBrowserDialog fbd = new FolderBrowserDialog();
 
-
-
         [DllImport("msscmp.dll", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.StdCall)]
         internal static extern int extractMsscmp(string path);
         [DllImport("msscmp.dll", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.StdCall)]
         internal static extern int saveMsscmp(string path);
-
 
         #endregion
 
@@ -201,7 +198,6 @@ namespace MSSCMP_Studio
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(LocalFolder);
             this.GetType().Assembly.GetManifestResourceNames();
             foreach (string name in this.GetType().Assembly.GetManifestResourceNames())
                 Console.WriteLine(name);
@@ -210,9 +206,7 @@ namespace MSSCMP_Studio
                 Console.Clear();
             }
 
-
             VersionLabel.Text = "Version: " + version;
-
 
             try
             {
@@ -223,7 +217,7 @@ namespace MSSCMP_Studio
             }
             catch
             {
-                System.IO.File.WriteAllText(LocalFolder + "\\url.txt", "http://phoenixarc.github.io/pckstudio.tk");
+                System.IO.File.WriteAllText(LocalFolder + "\\URL.txt", "http://phoenixarc.github.io/pckstudio.tk");
                 url = "http://phoenixarc.github.io/pckstudio.tk";
             }
             try

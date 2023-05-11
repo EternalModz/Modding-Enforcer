@@ -95,10 +95,10 @@
     <Compile Include="Forms\ImageColoration.Designer.cs">
       <DependentUpon>ImageColoration.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\PicViewerForm.cs">
@@ -374,10 +374,10 @@
     <EmbeddedResource Include="Forms\ImageColoration.resx">
       <DependentUpon>ImageColoration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.ja-JP.resx">
+    <EmbeddedResource Include="Forms\MainForm.ja-JP.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PicViewerForm.resx">

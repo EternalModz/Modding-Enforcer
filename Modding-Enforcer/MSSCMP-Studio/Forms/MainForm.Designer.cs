@@ -160,7 +160,7 @@ namespace MSSCMP_Studio
             this.toPhoenixARCDeveloperToolStripMenuItem});
             this.donateToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("donateToolStripMenuItem.Image")));
             this.donateToolStripMenuItem.Name = "donateToolStripMenuItem";
-            this.donateToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.donateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.donateToolStripMenuItem.Text = "Donate";
             // 
             // toPhoenixARCDeveloperToolStripMenuItem

@@ -36,6 +36,7 @@ namespace MSSCMP_Studio.Forms
             // 
             // CreditsLabel
             // 
+            this.CreditsLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CreditsLabel.AutoSize = true;
             this.CreditsLabel.Location = new System.Drawing.Point(52, 51);
             this.CreditsLabel.Name = "CreditsLabel";
@@ -45,6 +46,7 @@ namespace MSSCMP_Studio.Forms
             // 
             // AboutMSSCMPLabel
             // 
+            this.AboutMSSCMPLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.AboutMSSCMPLabel.AutoSize = true;
             this.AboutMSSCMPLabel.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.AboutMSSCMPLabel.Location = new System.Drawing.Point(85, 9);

@@ -1,8 +1,6 @@
-﻿using FUI_Enforcer.Classes;
-using System;
-using System.Windows.Forms;
+﻿using System;
 
-namespace FUI_Enforcer
+namespace FUI_Enforcer.Forms
 {
     public partial class AboutForm : ThemeForm
     {
