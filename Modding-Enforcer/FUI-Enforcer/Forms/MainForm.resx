@@ -119,13 +119,13 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="fileOpenStripMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 26</value>
+    <value>206, 22</value>
   </data>
   <data name="fileOpenStripMenu.Text" xml:space="preserve">
     <value>Open</value>
   </data>
   <data name="fileStripMenuSeparatorOpenSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 6</value>
+    <value>203, 6</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="fileSaveStripMenu.Enabled" type="System.Boolean, mscorlib">
@@ -139,7 +139,7 @@
     <value>Ctrl+S</value>
   </data>
   <data name="fileSaveStripMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 26</value>
+    <value>206, 22</value>
   </data>
   <data name="fileSaveStripMenu.Text" xml:space="preserve">
     <value>Save FUI</value>
@@ -154,7 +154,7 @@
     <value>Ctrl+Alt+S</value>
   </data>
   <data name="fileSaveAsStripMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 26</value>
+    <value>206, 22</value>
   </data>
   <data name="fileSaveAsStripMenu.Text" xml:space="preserve">
     <value>Save FUI As...</value>
@@ -163,37 +163,37 @@
     <value>False</value>
   </data>
   <data name="fileSaveAllImagesStripMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 26</value>
+    <value>206, 22</value>
   </data>
   <data name="fileSaveAllImagesStripMenu.Text" xml:space="preserve">
     <value>Save All Images...</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 6</value>
+    <value>203, 6</value>
   </data>
   <data name="openWorkingDirectoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 26</value>
+    <value>206, 22</value>
   </data>
   <data name="openWorkingDirectoryToolStripMenuItem.Text" xml:space="preserve">
     <value>Open Working Directory</value>
   </data>
   <data name="fileStripMenuSeparatorSaveExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 6</value>
+    <value>203, 6</value>
   </data>
   <data name="backgroundColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 26</value>
+    <value>206, 22</value>
   </data>
   <data name="backgroundColorToolStripMenuItem.Text" xml:space="preserve">
     <value>Background Color</value>
   </data>
   <data name="fontColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 26</value>
+    <value>206, 22</value>
   </data>
   <data name="fontColorToolStripMenuItem.Text" xml:space="preserve">
     <value>Font Color</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
+    <value>37, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>File</value>
@@ -202,25 +202,25 @@
     <value>17, 17</value>
   </metadata>
   <data name="aboutFUIEnforcerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 26</value>
+    <value>174, 22</value>
   </data>
   <data name="aboutFUIEnforcerToolStripMenuItem.Text" xml:space="preserve">
     <value>About FUI Enforcer</value>
   </data>
   <data name="moreToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 24</value>
+    <value>47, 20</value>
   </data>
   <data name="moreToolStripMenuItem.Text" xml:space="preserve">
     <value>More</value>
   </data>
   <data name="MainMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 7</value>
+    <value>0, 5</value>
   </data>
   <data name="MainMenuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 3, 0, 3</value>
+    <value>7, 2, 0, 2</value>
   </data>
   <data name="MainMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1378, 30</value>
+    <value>1206, 24</value>
   </data>
   <data name="MainMenuStrip.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -250,13 +250,13 @@
     <value>NoControl</value>
   </data>
   <data name="statusLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1106, 913</value>
+    <value>968, 685</value>
   </data>
   <data name="statusLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 0, 5, 0</value>
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 20</value>
+    <value>201, 15</value>
   </data>
   <data name="statusLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -280,34 +280,34 @@
     <value>244, 18</value>
   </metadata>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 24</value>
+    <value>177, 22</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>Debug Coloration...</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 6</value>
+    <value>174, 6</value>
   </data>
   <data name="invertColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 24</value>
+    <value>177, 22</value>
   </data>
   <data name="invertColorToolStripMenuItem.Text" xml:space="preserve">
     <value>Invert Color</value>
   </data>
   <data name="imageSaveStripMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 24</value>
+    <value>177, 22</value>
   </data>
   <data name="imageSaveStripMenu.Text" xml:space="preserve">
     <value>Save Image</value>
   </data>
   <data name="imageReplaceStripMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 24</value>
+    <value>177, 22</value>
   </data>
   <data name="imageReplaceStripMenu.Text" xml:space="preserve">
     <value>Replace Image</value>
   </data>
   <data name="imageEditAttributeStripMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 24</value>
+    <value>177, 22</value>
   </data>
   <data name="imageEditAttributeStripMenu.Text" xml:space="preserve">
     <value>Edit Attributes</value>
@@ -316,7 +316,7 @@
     <value>False</value>
   </data>
   <data name="imageMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 130</value>
+    <value>178, 120</value>
   </data>
   <data name="&gt;&gt;imageMenuStrip.Name" xml:space="preserve">
     <value>imageMenuStrip</value>
@@ -334,19 +334,19 @@
     <value>389, 17</value>
   </metadata>
   <data name="imageBulkSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 24</value>
+    <value>151, 22</value>
   </data>
   <data name="imageBulkSave.Text" xml:space="preserve">
     <value>Save images</value>
   </data>
   <data name="replaceSelectedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 24</value>
+    <value>151, 22</value>
   </data>
   <data name="replaceSelectedToolStripMenuItem.Text" xml:space="preserve">
     <value>Replace Range</value>
   </data>
   <data name="imageBulkMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 52</value>
+    <value>152, 48</value>
   </data>
   <data name="&gt;&gt;imageBulkMenuStrip.Name" xml:space="preserve">
     <value>imageBulkMenuStrip</value>
@@ -358,13 +358,13 @@
     <value>NoControl</value>
   </data>
   <data name="ImgLoadingIndicator.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1097, 8</value>
+    <value>960, 6</value>
   </data>
   <data name="ImgLoadingIndicator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 4, 5, 4</value>
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="ImgLoadingIndicator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 16</value>
+    <value>233, 12</value>
   </data>
   <data name="ImgLoadingIndicator.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -391,16 +391,16 @@
     <value>NoControl</value>
   </data>
   <data name="FUIPicturePreview.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 526</value>
+    <value>0, 392</value>
   </data>
   <data name="FUIPicturePreview.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 4, 5, 4</value>
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="FUIPicturePreview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1378, 388</value>
+    <value>1206, 291</value>
   </data>
   <data name="FUIPicturePreview.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
+    <value>Zoom</value>
   </data>
   <data name="FUIPicturePreview.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -421,31 +421,31 @@
     <value>554, 17</value>
   </metadata>
   <data name="LabelSelectedIndex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
+    <value>48, 17</value>
   </data>
   <data name="LabelSelectedIndex.Text" xml:space="preserve">
     <value>Index: 0</value>
   </data>
   <data name="LabelTotalEntries.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 20</value>
+    <value>82, 17</value>
   </data>
   <data name="LabelTotalEntries.Text" xml:space="preserve">
     <value>Total Entries: 0</value>
   </data>
   <data name="LabelSelImgSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 20</value>
+    <value>134, 17</value>
   </data>
   <data name="LabelSelImgSize.Text" xml:space="preserve">
     <value>Selected Image Size: 0x0</value>
   </data>
   <data name="MainStatusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 914</value>
+    <value>0, 683</value>
   </data>
   <data name="MainStatusStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 0, 18, 0</value>
+    <value>1, 0, 16, 0</value>
   </data>
   <data name="MainStatusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1378, 26</value>
+    <value>1206, 22</value>
   </data>
   <data name="MainStatusStrip.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -469,13 +469,13 @@
     <value>Top</value>
   </data>
   <data name="FUIimageListView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 37</value>
+    <value>0, 29</value>
   </data>
   <data name="FUIimageListView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 4, 5, 8</value>
+    <value>4, 3, 4, 6</value>
   </data>
   <data name="FUIimageListView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1378, 475</value>
+    <value>1206, 356</value>
   </data>
   <data name="FUIimageListView.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -484,7 +484,7 @@
     <value>FUIimageListView</value>
   </data>
   <data name="&gt;&gt;FUIimageListView.Type" xml:space="preserve">
-    <value>FUI_Enforcer.Controls.ChangableMenuListView, FUI Enforcer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>FUI_Enforcer.Controls.ChangableMenuListView, FUI-Enforcer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;FUIimageListView.Parent" xml:space="preserve">
     <value>$this</value>
@@ -496,10 +496,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
+    <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1378, 940</value>
+    <value>1206, 705</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -708,13 +708,13 @@
 </value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 4, 5, 4</value>
+    <value>4, 3, 4, 3</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>540, 390</value>
+    <value>474, 302</value>
   </data>
   <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 7, 0, 0</value>
+    <value>0, 5, 0, 0</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

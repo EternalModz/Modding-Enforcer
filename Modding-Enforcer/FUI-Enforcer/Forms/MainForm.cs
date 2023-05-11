@@ -795,6 +795,7 @@ namespace FUI_Enforcer.Forms
                 MainMenuStrip.ForeColor = colorDialog.Color;
                 fileToolStripMenuItem.ForeColor = colorDialog.Color;
                 moreToolStripMenuItem.ForeColor = colorDialog.Color;
+                FUIimageListView.ForeColor = colorDialog.Color;
             }
         }
     }
