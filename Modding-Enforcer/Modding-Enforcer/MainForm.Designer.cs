@@ -85,7 +85,7 @@
             this.TitleLabel.AutoSize = true;
             this.TitleLabel.Font = new System.Drawing.Font("MV Boli", 45F);
             this.TitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
-            this.TitleLabel.Location = new System.Drawing.Point(153, 54);
+            this.TitleLabel.Location = new System.Drawing.Point(196, 54);
             this.TitleLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TitleLabel.Name = "TitleLabel";
             this.TitleLabel.Size = new System.Drawing.Size(525, 79);

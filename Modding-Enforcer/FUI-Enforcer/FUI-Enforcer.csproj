@@ -64,7 +64,7 @@
     <Compile Include="Classes\ArrayUtils.cs" />
     <Compile Include="Classes\Delegate.cs" />
     <Compile Include="Classes\ExtensionTypes.cs" />
-    <Compile Include="Classes\FuiUtils.cs" />
+    <Compile Include="Classes\FUIUtils.cs" />
     <Compile Include="Classes\ImageUtils.cs" />
     <Compile Include="Classes\InterpolationPictureBox.cs">
       <SubType>Component</SubType>

@@ -23,28 +23,28 @@ namespace FUI_Enforcer
 
         public void Read(byte[] filedata, int startIndex)
         {
-            descriptor = FuiUtils.ToInt32(filedata, startIndex + 0);
-            attribute = FuiUtils.ToInt32(filedata, startIndex + 4);
-            imageWidth = FuiUtils.ToInt32(filedata, startIndex + 8);
-            imageHeight = FuiUtils.ToInt32(filedata, startIndex + 12);
-            imageOffset = FuiUtils.ToInt32(filedata, startIndex + 16);
-            imageSize = FuiUtils.ToInt32(filedata, startIndex + 20);
-            unkOffset = FuiUtils.ToInt32(filedata, startIndex + 24);
-            unk_0x1C = FuiUtils.ToInt32(filedata, startIndex + 28);
+            descriptor = FUIUtils.ToInt32(filedata, startIndex + 0);
+            attribute = FUIUtils.ToInt32(filedata, startIndex + 4);
+            imageWidth = FUIUtils.ToInt32(filedata, startIndex + 8);
+            imageHeight = FUIUtils.ToInt32(filedata, startIndex + 12);
+            imageOffset = FUIUtils.ToInt32(filedata, startIndex + 16);
+            imageSize = FUIUtils.ToInt32(filedata, startIndex + 20);
+            unkOffset = FUIUtils.ToInt32(filedata, startIndex + 24);
+            unk_0x1C = FUIUtils.ToInt32(filedata, startIndex + 28);
         }
 
         public byte[] ToByteArray()
         {
             List<byte> byteList = new List<byte>();
 
-            byteList.AddRange(FuiUtils.GetBytes(descriptor));
-            byteList.AddRange(FuiUtils.GetBytes(attribute));
-            byteList.AddRange(FuiUtils.GetBytes(imageWidth));
-            byteList.AddRange(FuiUtils.GetBytes(imageHeight));
-            byteList.AddRange(FuiUtils.GetBytes(imageOffset));
-            byteList.AddRange(FuiUtils.GetBytes(ImageSize));
-            byteList.AddRange(FuiUtils.GetBytes(unkOffset));
-            byteList.AddRange(FuiUtils.GetBytes(unk_0x1C));
+            byteList.AddRange(FUIUtils.GetBytes(descriptor));
+            byteList.AddRange(FUIUtils.GetBytes(attribute));
+            byteList.AddRange(FUIUtils.GetBytes(imageWidth));
+            byteList.AddRange(FUIUtils.GetBytes(imageHeight));
+            byteList.AddRange(FUIUtils.GetBytes(imageOffset));
+            byteList.AddRange(FUIUtils.GetBytes(ImageSize));
+            byteList.AddRange(FUIUtils.GetBytes(unkOffset));
+            byteList.AddRange(FUIUtils.GetBytes(unk_0x1C));
 
             return byteList.ToArray();
         }

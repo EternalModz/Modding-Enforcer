@@ -49,19 +49,18 @@
             // 
             // PreviewPictureBox
             // 
-            this.PreviewPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.PreviewPictureBox.Location = new System.Drawing.Point(17, 15);
+            this.PreviewPictureBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.PreviewPictureBox.Location = new System.Drawing.Point(11, 12);
             this.PreviewPictureBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PreviewPictureBox.Name = "PreviewPictureBox";
-            this.PreviewPictureBox.Size = new System.Drawing.Size(324, 177);
+            this.PreviewPictureBox.Size = new System.Drawing.Size(337, 180);
+            this.PreviewPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PreviewPictureBox.TabIndex = 0;
             this.PreviewPictureBox.TabStop = false;
             // 
             // LabelBrightness
             // 
-            this.LabelBrightness.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.LabelBrightness.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LabelBrightness.AutoSize = true;
             this.LabelBrightness.Location = new System.Drawing.Point(20, 208);
             this.LabelBrightness.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -72,7 +71,7 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(30, 238);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -83,7 +82,7 @@
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(33, 268);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -94,7 +93,7 @@
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(21, 298);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -105,7 +104,7 @@
             // 
             // TrackbarBrightness
             // 
-            this.TrackbarBrightness.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.TrackbarBrightness.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TrackbarBrightness.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.TrackbarBrightness.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TrackbarBrightness.DecimalPlaces = 6;
@@ -123,7 +122,7 @@
             // 
             // TrackbarContrast
             // 
-            this.TrackbarContrast.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.TrackbarContrast.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TrackbarContrast.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.TrackbarContrast.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TrackbarContrast.DecimalPlaces = 6;
@@ -141,7 +140,7 @@
             // 
             // TrackbarGamma
             // 
-            this.TrackbarGamma.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.TrackbarGamma.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TrackbarGamma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.TrackbarGamma.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TrackbarGamma.DecimalPlaces = 6;
@@ -159,7 +158,7 @@
             // 
             // TrackbarSaturation
             // 
-            this.TrackbarSaturation.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.TrackbarSaturation.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TrackbarSaturation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.TrackbarSaturation.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TrackbarSaturation.DecimalPlaces = 6;
@@ -177,6 +176,7 @@
             // 
             // ResetButton
             // 
+            this.ResetButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ResetButton.BackColor = System.Drawing.Color.Transparent;
             this.ResetButton.BackgroundColor = System.Drawing.Color.Transparent;
             this.ResetButton.BorderRadius = 10;
@@ -201,6 +201,7 @@
             // 
             // PreviewButton
             // 
+            this.PreviewButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PreviewButton.BackColor = System.Drawing.Color.Transparent;
             this.PreviewButton.BackgroundColor = System.Drawing.Color.Transparent;
             this.PreviewButton.BorderRadius = 10;

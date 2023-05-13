@@ -43,10 +43,10 @@ namespace FUI_Enforcer.Forms
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Location = new System.Drawing.Point(363, 21);
+            this.pictureBox1.Location = new System.Drawing.Point(204, 21);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(400, 400);
+            this.pictureBox1.Size = new System.Drawing.Size(554, 400);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -68,7 +68,7 @@ namespace FUI_Enforcer.Forms
             this.CopyButton.GradientColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.CopyButton.GradientColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
             this.CopyButton.HoverOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.CopyButton.Location = new System.Drawing.Point(19, 224);
+            this.CopyButton.Location = new System.Drawing.Point(14, 224);
             this.CopyButton.Name = "CopyButton";
             this.CopyButton.Size = new System.Drawing.Size(166, 40);
             this.CopyButton.TabIndex = 19;
@@ -93,7 +93,7 @@ namespace FUI_Enforcer.Forms
             this.CloseButton.GradientColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
             this.CloseButton.GradientColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
             this.CloseButton.HoverOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.CloseButton.Location = new System.Drawing.Point(19, 270);
+            this.CloseButton.Location = new System.Drawing.Point(14, 270);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(166, 40);
             this.CloseButton.TabIndex = 18;
@@ -118,7 +118,7 @@ namespace FUI_Enforcer.Forms
             this.ExtractButton.GradientColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.ExtractButton.GradientColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.ExtractButton.HoverOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.ExtractButton.Location = new System.Drawing.Point(19, 178);
+            this.ExtractButton.Location = new System.Drawing.Point(14, 178);
             this.ExtractButton.Name = "ExtractButton";
             this.ExtractButton.Size = new System.Drawing.Size(166, 40);
             this.ExtractButton.TabIndex = 17;
@@ -143,7 +143,7 @@ namespace FUI_Enforcer.Forms
             this.InvertImageColorButton.GradientColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
             this.InvertImageColorButton.GradientColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.InvertImageColorButton.HoverOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.InvertImageColorButton.Location = new System.Drawing.Point(19, 132);
+            this.InvertImageColorButton.Location = new System.Drawing.Point(14, 132);
             this.InvertImageColorButton.Name = "InvertImageColorButton";
             this.InvertImageColorButton.Size = new System.Drawing.Size(166, 40);
             this.InvertImageColorButton.TabIndex = 16;
@@ -154,12 +154,12 @@ namespace FUI_Enforcer.Forms
             // 
             // panel1
             // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.InvertImageColorButton);
             this.panel1.Controls.Add(this.CopyButton);
             this.panel1.Controls.Add(this.ExtractButton);
             this.panel1.Controls.Add(this.CloseButton);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(773, 443);

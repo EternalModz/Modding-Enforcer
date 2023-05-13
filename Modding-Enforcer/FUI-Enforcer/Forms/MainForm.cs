@@ -22,14 +22,14 @@ namespace FUI_Enforcer.Forms
             0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A
         };
 
-        private string currentOpenFui = null;
-        private bool shouldSaveFui = false;
+        private string currentOpenFUI = null;
+        private bool shouldSaveFUI = false;
         private byte[] fuiMainBytes;
         private List<FUIImageInfo> fuiImageInfo = new List<FUIImageInfo>();
         private List<byte[]> originalImagesData = new List<byte[]>();
         private List<ImageFormat> originalImageFormats = new List<ImageFormat>();
         private bool _dark = false;
-        internal string FileName { get => currentOpenFui; }
+        internal string FileName { get => currentOpenFUI; }
         public MainForm() => InitializeComponent();
         public MainForm(string fn)
         {
@@ -54,7 +54,7 @@ namespace FUI_Enforcer.Forms
 
         private void OnClickFileSave(object sender, EventArgs e)
         {
-            SaveFui(currentOpenFui);
+            SaveFui(currentOpenFUI);
         }
 
         private void OnClickFileSaveAs(object sender, EventArgs e)
@@ -115,7 +115,7 @@ namespace FUI_Enforcer.Forms
                 imageLoaded.Dispose();
             }
 
-            shouldSaveFui = true;
+            shouldSaveFUI = true;
 
         }
         void rep(Bitmap localImage, int index, bool colorCorrect)
@@ -156,7 +156,7 @@ namespace FUI_Enforcer.Forms
                 imageLoaded.Dispose();
             }
 
-            shouldSaveFui = true;
+            shouldSaveFUI = true;
 
         }
 
@@ -168,10 +168,10 @@ namespace FUI_Enforcer.Forms
                 return;
             }
 
-            CommonFileDialogCheckBox correctColorCb = new CommonFileDialogCheckBox("correctColorCb",
+            CommonFileDialogCheckBox correctColorCb = new("correctColorCb",
                 Resources.DialogCorrectColor, false);
 
-            CommonOpenFileDialog fileDialog = new CommonOpenFileDialog(Resources.DialogReplaceImage)
+            CommonOpenFileDialog fileDialog = new(Resources.DialogReplaceImage)
             {
                 Filters =
                 {
@@ -223,7 +223,7 @@ namespace FUI_Enforcer.Forms
                     imageLoaded.Dispose();
                 }
 
-                shouldSaveFui = true;
+                shouldSaveFUI = true;
             }
         }
 
@@ -312,7 +312,7 @@ namespace FUI_Enforcer.Forms
             {
                 string directorySelected = fileDialog.FileName;
                 string filepathBase = Path.Combine(
-                    directorySelected, Path.GetFileNameWithoutExtension(currentOpenFui) + "_{0}{1}");
+                    directorySelected, Path.GetFileNameWithoutExtension(currentOpenFUI) + "_{0}{1}");
 
                 for (int i = 0; i < originalImageFormats.Count; i++)
                 {
@@ -371,7 +371,7 @@ namespace FUI_Enforcer.Forms
             {
                 string directorySelected = fileDialog.FileName;
                 string filepathBase = Path.Combine(
-                    directorySelected, Path.GetFileNameWithoutExtension(currentOpenFui) + "_{0}{1}");
+                    directorySelected, Path.GetFileNameWithoutExtension(currentOpenFUI) + "_{0}{1}");
                 int[] selectedIndices = FUIimageListView.SelectedIndices.Cast<int>().ToArray();
 
                 for (int i = 0; i < selectedIndices.Length; i++)
@@ -417,7 +417,7 @@ namespace FUI_Enforcer.Forms
         {
             FUI_Enforcer.Properties.Settings.Default.sett_dark = _dark;
             FUI_Enforcer.Properties.Settings.Default.Save();
-            if (shouldSaveFui && e.CloseReason == CloseReason.UserClosing)
+            if (shouldSaveFUI && e.CloseReason == CloseReason.UserClosing)
             {
                 e.Cancel = NotifySave();
             }
@@ -425,7 +425,7 @@ namespace FUI_Enforcer.Forms
 
         private void OnOpendFui(string filepath)
         {
-            currentOpenFui = filepath;
+            currentOpenFUI = filepath;
             fileSaveStripMenu.Enabled = true;
             fileSaveAsStripMenu.Enabled = true;
             fileSaveAllImagesStripMenu.Enabled = true;
@@ -444,17 +444,17 @@ namespace FUI_Enforcer.Forms
             originalImageFormats.Clear();
             imageList.Images.Clear();
             FUIimageListView.Items.Clear();
-            currentOpenFui = null;
+            currentOpenFUI = null;
             fileSaveStripMenu.Enabled = false;
             fileSaveAsStripMenu.Enabled = false;
-            shouldSaveFui = false;
+            shouldSaveFUI = false;
             fileSaveAllImagesStripMenu.Enabled = false;
             SetStatus(null);
         }
 
         private void OnSavedFui(string filepath)
         {
-            shouldSaveFui = false;
+            shouldSaveFUI = false;
             MessageBox.Show(string.Format(Resources.DialogSavedFui, filepath));
         }
 
@@ -494,8 +494,8 @@ namespace FUI_Enforcer.Forms
                 return;
             }
 
-            FUIImageInfo[] imageInfo = FuiUtils.GetImageInfo(filedata, pngIndex);
-            List<byte[]> imagesData = FuiUtils.GetImagesData(filedata, pngIndex, imageInfo);
+            FUIImageInfo[] imageInfo = FUIUtils.GetImageInfo(filedata, pngIndex);
+            List<byte[]> imagesData = FUIUtils.GetImagesData(filedata, pngIndex, imageInfo);
             originalImagesData.AddRange(imagesData);
             var t = new Thread(() =>
             {
@@ -571,7 +571,7 @@ namespace FUI_Enforcer.Forms
             }
 
             fuiBytes.AddRange(imageSection);
-            File.WriteAllBytes(filepath, FuiUtils.ProcessHeader(fuiBytes.ToArray()));
+            File.WriteAllBytes(filepath, FUIUtils.ProcessHeader(fuiBytes.ToArray()));
 
             OnSavedFui(filepath);
         }
@@ -618,7 +618,7 @@ namespace FUI_Enforcer.Forms
                 imageLoaded.Dispose();
             }
 
-            shouldSaveFui = true;
+            shouldSaveFUI = true;
         }
 
         Thread _previewThread;
@@ -732,7 +732,7 @@ namespace FUI_Enforcer.Forms
                     var directorio = FileName.GetDirectoryName();
                     if (Directory.Exists(directorio))
                     {
-                        Console.WriteLine("Requesteado orden de abrir directorio de trabajo.");
+                        Console.WriteLine("Requested command to open working directory.");
                         Process.Start(directorio);
                     }
                     else
@@ -795,7 +795,6 @@ namespace FUI_Enforcer.Forms
                 MainMenuStrip.ForeColor = colorDialog.Color;
                 fileToolStripMenuItem.ForeColor = colorDialog.Color;
                 moreToolStripMenuItem.ForeColor = colorDialog.Color;
-                FUIimageListView.ForeColor = colorDialog.Color;
             }
         }
     }

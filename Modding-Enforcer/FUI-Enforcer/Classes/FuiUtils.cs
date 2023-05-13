@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace FUI_Enforcer.Classes
 {
-    static class FuiUtils
+    static class FUIUtils
     {
         public static FUIImageInfo[] GetImageInfo(byte[] filedata, int imageIndex)
         {

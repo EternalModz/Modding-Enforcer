@@ -110,7 +110,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(124, 30);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Program version: 1.1.0\r\nLast updated: 5/10/23";
+            this.label2.Text = "Program version: 1.1.0\r\nLast updated: 5/13/23";
             // 
             // GitHubBtn
             // 
