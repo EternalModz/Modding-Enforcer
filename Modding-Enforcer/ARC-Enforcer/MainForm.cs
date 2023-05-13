@@ -3,58 +3,58 @@ using System.Windows.Forms;
 
 namespace ARC_Enforcer.Forms
 {
-	public partial class MainForm : Form
-	{
-		public MainForm()
-		{
-			this.InitializeComponent();
-		}
+    public partial class MainForm : Form
+    {
+        public MainForm()
+        {
+            this.InitializeComponent();
+        }
 
-		private void PS3Archive_Load(object sender, EventArgs e)
-		{
-		}
+        private void PS3Archive_Load(object sender, EventArgs e)
+        {
+        }
 
-		private void btnUnPack_Click(object sender, EventArgs e)
-		{
+        private void btnUnPack_Click(object sender, EventArgs e)
+        {
 
-		}
+        }
 
-		private void btnPack_Click(object sender, EventArgs e)
-		{
+        private void btnPack_Click(object sender, EventArgs e)
+        {
 
-		}
+        }
 
-		private bool method_0()
-		{
-			return this.textBox_0.Text.Length > 0 && this.textBox_1.Text.Length > 0;
-		}
+        private bool method_0()
+        {
+            return this.textBox_0.Text.Length > 0 && this.textBox_1.Text.Length > 0;
+        }
 
-		private void button1_Click(object sender, EventArgs e)
-		{
+        private void button1_Click(object sender, EventArgs e)
+        {
 
-		}
+        }
 
-		private void checkBox1_CheckedChanged(object sender, EventArgs e)
-		{
-			bool @checked = this.checkBox1.Checked;
-			if (@checked)
-			{
-				this.textBox_1.Enabled = false;
-				this.BrowseARCFolder_Btn.Enabled = false;
-				this.label2.Enabled = false;
-			}
-			else
-			{
-				this.textBox_1.Enabled = true;
-				this.BrowseARCFolder_Btn.Enabled = true;
-				this.label2.Enabled = true;
-			}
-		}
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            bool @checked = this.checkBox1.Checked;
+            if (@checked)
+            {
+                this.textBox_1.Enabled = false;
+                this.BrowseARCFolder_Btn.Enabled = false;
+                this.label2.Enabled = false;
+            }
+            else
+            {
+                this.textBox_1.Enabled = true;
+                this.BrowseARCFolder_Btn.Enabled = true;
+                this.label2.Enabled = true;
+            }
+        }
 
-		private void button2_Click(object sender, EventArgs e)
-		{
+        private void button2_Click(object sender, EventArgs e)
+        {
 
-		}
+        }
 
         private void UnPack_Btn_Click(object sender, EventArgs e)
         {

@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace MSSCMP_Studio
+namespace MSSCMP_Studio.Forms
 {
     public partial class MainForm : Form
     {

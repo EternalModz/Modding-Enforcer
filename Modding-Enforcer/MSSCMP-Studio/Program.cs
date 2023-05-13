@@ -30,13 +30,13 @@ namespace MSSCMP_Studio
 
             if (args.Length != 0 && args[0] == "-dev")
             {
-                Form mainForm = new MainForm(1);
+                Form mainForm = new Forms.MainForm(1);
                 DarkNet.Instance.SetWindowThemeForms(mainForm, Theme.Auto);
                 Application.Run(mainForm);
             }
             else
             {
-                Form mainForm = new MainForm(0);
+                Form mainForm = new Forms.MainForm(0);
                 DarkNet.Instance.SetWindowThemeForms(mainForm, Theme.Auto);
                 Application.Run(mainForm);
             }
