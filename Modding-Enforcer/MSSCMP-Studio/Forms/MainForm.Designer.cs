@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.DEVELOPERLABEL = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.EntryList = new System.Windows.Forms.TreeView();
             this.TreeMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -53,19 +52,6 @@
             this.TreeMenu.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // DEVELOPERLABEL
-            // 
-            this.DEVELOPERLABEL.AutoSize = true;
-            this.DEVELOPERLABEL.BackColor = System.Drawing.Color.Transparent;
-            this.DEVELOPERLABEL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DEVELOPERLABEL.ForeColor = System.Drawing.Color.Red;
-            this.DEVELOPERLABEL.Location = new System.Drawing.Point(806, 6);
-            this.DEVELOPERLABEL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.DEVELOPERLABEL.Name = "DEVELOPERLABEL";
-            this.DEVELOPERLABEL.Size = new System.Drawing.Size(146, 16);
-            this.DEVELOPERLABEL.TabIndex = 12;
-            this.DEVELOPERLABEL.Text = "DEVELOPER BUILD";
             // 
             // richTextBox1
             // 
@@ -159,7 +145,7 @@
             this.toPhoenixARCDeveloperToolStripMenuItem});
             this.donateToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("donateToolStripMenuItem.Image")));
             this.donateToolStripMenuItem.Name = "donateToolStripMenuItem";
-            this.donateToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.donateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.donateToolStripMenuItem.Text = "Donate";
             // 
             // toPhoenixARCDeveloperToolStripMenuItem
@@ -187,7 +173,7 @@
             // 
             this.newToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripMenuItem.Image")));
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newToolStripMenuItem.Text = "New";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
@@ -195,7 +181,7 @@
             // 
             this.openToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripMenuItem.Image")));
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -203,7 +189,7 @@
             // 
             this.extractToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("extractToolStripMenuItem1.Image")));
             this.extractToolStripMenuItem1.Name = "extractToolStripMenuItem1";
-            this.extractToolStripMenuItem1.Size = new System.Drawing.Size(114, 22);
+            this.extractToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.extractToolStripMenuItem1.Text = "Extract";
             this.extractToolStripMenuItem1.Click += new System.EventHandler(this.extractToolStripMenuItem_Click);
             // 
@@ -212,7 +198,7 @@
             this.saveToolStripMenuItem.Enabled = false;
             this.saveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripMenuItem.Image")));
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -221,7 +207,7 @@
             this.saveAsToolStripMenuItem.Enabled = false;
             this.saveAsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveAsToolStripMenuItem.Image")));
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveAsToolStripMenuItem.Text = "Save As";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem1_Click);
             // 
@@ -261,7 +247,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.ClientSize = new System.Drawing.Size(954, 695);
-            this.Controls.Add(this.DEVELOPERLABEL);
             this.Controls.Add(this.EntryList);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.menuStrip);
@@ -285,7 +270,6 @@
 
 
         #endregion
-        private System.Windows.Forms.Label DEVELOPERLABEL;
         private System.Windows.Forms.TreeView EntryList;
         private System.Windows.Forms.ContextMenuStrip TreeMenu;
         private System.Windows.Forms.ToolStripMenuItem replaceToolStripMenuItem;

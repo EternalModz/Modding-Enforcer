@@ -11,29 +11,15 @@ namespace MSSCMP_Studio.Forms
         public MainForm(int debug)
         {
             InitializeComponent();
-
-            #region if debugging :: developer build label shown
-
-            if (debug == 0)
-            {
-                DEVELOPERLABEL.Visible = false;
-            }
-            else
-            {
-                DEVELOPERLABEL.Visible = true;
-                developer = true;
-            }
-
-            #endregion
         }
 
-        #region variables
+        #region Variables
 
         public string arcfile = "";
         public string appdata = Environment.CurrentDirectory + "\\tmp\\";
         public string LocalFolder = Environment.CurrentDirectory;
         public static string url = "http://localhost";
-        string version = "1.1";
+        string version = "2.1";
         public bool developer = false;
 
         string saveLocation;//Save location for pck file
@@ -207,43 +193,11 @@ namespace MSSCMP_Studio.Forms
             }
 
             VersionLabel.Text = "Version: " + version;
-
-            try
-            {
-                new System.Net.WebClient().DownloadString(url);
-                System.IO.File.WriteAllText(LocalFolder + "\\url.txt", url);
-                System.IO.File.WriteAllText(LocalFolder + "\\MSSCMP_Changelog.txt", url + "/studio/BINK/api/MSSCMP_Changelog.txt");
-                richTextBox1.Text = new System.Net.WebClient().DownloadString(url + "/studio/BINK/api/MSSCMP_Changelog.txt");
-            }
-            catch
-            {
-                System.IO.File.WriteAllText(LocalFolder + "\\URL.txt", "http://phoenixarc.github.io/pckstudio.tk");
-                url = "http://phoenixarc.github.io/pckstudio.tk";
-            }
-            try
-            {
-                if (new System.Net.WebClient().DownloadString(url + "/studio/BINK/api/MSSCMP_Center_update.txt") != version)
-                {
-
-                    if (MessageBox.Show("Update Avaliable\nDownload?", "Alert!", MessageBoxButtons.YesNo) == DialogResult.Yes)
-                    {
-                        System.Diagnostics.Process.Start(LocalFolder + "\\MSSCMPUpdater.exe");
-                    }
-                }
-                else
-                {
-
-                }
-            }
-            catch
-            {
-                MessageBox.Show("Servers Offline!\nOnline services have been disabled!");
-            }
         }
 
         #endregion
 
-        #region delete files when program closes
+        #region Delete files when program closes
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -667,7 +621,7 @@ namespace MSSCMP_Studio.Forms
 
         #endregion
 
-        #region select file
+        #region Select file
 
         private void EntryList_AfterSelect(object sender, TreeViewEventArgs e)
         {
@@ -743,7 +697,7 @@ namespace MSSCMP_Studio.Forms
 
         #endregion
 
-        #region extract file
+        #region Extract file
 
         private void extractToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -813,7 +767,7 @@ namespace MSSCMP_Studio.Forms
 
         #endregion
 
-        #region replace file
+        #region Replace file
 
         private void replaceToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -895,7 +849,7 @@ namespace MSSCMP_Studio.Forms
 
         #endregion
 
-        #region new MSSCMP File
+        #region New MSSCMP File
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
